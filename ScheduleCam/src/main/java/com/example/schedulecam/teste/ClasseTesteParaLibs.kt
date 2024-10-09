@@ -1,4 +1,4 @@
-package com.example.schedulecam.ui.builder
+package com.example.schedulecam.teste
 
 //modelo de builder para testar a lib
 class ClasseTesteParaLibs private constructor(
