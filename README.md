@@ -8,6 +8,9 @@ Aplicaçao que programaticamente tira uma foto de tempos e tempos automaticament
 
 ## Índice
 - [Instalação](#instalação)
+
+[![](https://jitpack.io/v/michel566/scheduleCam.svg)](https://jitpack.io/#michel566/scheduleCam)
+
 - [Uso](#uso)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
