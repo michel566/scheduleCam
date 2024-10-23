@@ -3,6 +3,7 @@
 Aplicaçao que programaticamente tira uma foto de tempos e tempos automaticamente
 
 1. **0.0.1** Implementado parcialmente a funcionalidade de camera. <br>Disponibilizacao do esqueleto das funçoes para testar integracao com libs externas
+2. **0.0.2** Atualizado e corrigido para integraçao
 
 
 
