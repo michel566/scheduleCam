@@ -34,21 +34,11 @@ android {
     }
 }
 
-tasks.register('sourcesJar', Jar) {
-    from android.sourceSets.main.java.srcDirs
-    archiveClassifier.set('sources')
-}
-
-artifacts {
-    archives sourcesJar
-}
-
 publishing{
     publications {
         register('release', MavenPublication) {
             afterEvaluate {
                 from(components['release'])
-                artifact(sourcesJar)
             }
         }
     }
@@ -76,6 +66,10 @@ dependencies {
     implementation libs.androidx.lifecycle.viewmodel.ktx
     implementation libs.androidx.lifecycle.livedata.ktx
     implementation libs.kotlinx.coroutines.android
+
+    //flutter integration
+    implementation libs.flutter.embedding.debug
+    implementation libs.flutter.embedding.release
 
     testImplementation libs.junit
     androidTestImplementation libs.androidx.junit
